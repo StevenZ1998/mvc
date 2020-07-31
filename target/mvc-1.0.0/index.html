@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Animals</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>Insert Your Animal Here</h1>
+
+<form method="POST" id="add">
+	<input type="text" name="name" id="name"/> <br/>
+	<input type="text" name="color" id="color"/> <br />
+	<input type="submit" value="Add Animal" />	
+</form>
+
+<h1>All Animals</h1>
+<table border="2">
+	<thead>
+	<tr><th>Animal Id</th><th>Animal Name</th><th>Animal Color</th></tr>
+	</thead>
+	<!--Append animals here-->
+	<tbody id="list"></tbody>
+</table>
+
+<br/>
+<h2>Click <i>details</i> to see details below</h2>
+<div>
+<h2 id="details"></h2>
+</div>
+
+<br/>
+<h1>Update the animal</h1>
+<form method="PUT" id="update">
+	<!-- first input box is hidded, but I still can get it's value. We don't want the id to be modified-->
+	<input type="hidden" name="animal_id" id="updateId"/> <br/>
+	<input type="text" name="name" id="updateName"/> <br/>
+	<input type="text" name="color" id="updateColor"/> <br />
+	<input type="submit" value="Update Animal" />	
+</form>
+
+</body>
+<script src="script.js"></script>
+<script src="details.js"></script>
+<script src="update.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</html>

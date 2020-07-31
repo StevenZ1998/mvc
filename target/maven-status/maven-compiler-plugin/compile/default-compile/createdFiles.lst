@@ -1,0 +1,7 @@
+com\skillstorm\controllers\AnimalController.class
+com\skillstorm\beans\Animal.class
+com\skillstorm\service\AnimalService.class
+com\skillstorm\controllers\FrontController.class
+com\skillstorm\data\AnimalDaoInterface.class
+com\skillstorm\controllers\CORSFilter.class
+com\skillstorm\data\AnimalDAO.class

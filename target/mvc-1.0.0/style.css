@@ -1,0 +1,61 @@
+h1{
+    color: #142850;
+    padding-left: 0;
+    padding-top: 20px;
+}
+ /* input type text style*/
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+    /* input type submit style*/
+  input[type=submit] {
+    background-color: #27496d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* input type submit when we hover it style*/
+  input[type=submit]:hover {
+    background-color: #00909e;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  /* table style*/
+    table{
+    border-collapse: collapse;
+}
+ /* table header style*/
+  th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    background-color: #27496d;
+    color: white;
+  }
+  /* table data*/
+  td{
+    padding: 10px; /*padding adds spacing within an element*/
+  }
+    /* link style*/
+  a{
+      padding: 5px;
+      color: #00909e;
+  }
+  /* link style when we hover it*/
+  a:hover{
+    color: royalblue;
+}
